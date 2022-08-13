@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Generate a <span>Random Password</span></h1>
+    <div id = "container">
+        <h1>Generate a <br><span id ="styley">Random Password</span></h1>
     <h3>Never use an insecure password again</h3>
     <button id ="generate" onclick="passwordGen()">Generate password</button>
     <div id ="password-container">
-        <p id  ="password1">Password</p>
-        <p id ="password2"></p>
+        <input type="text" name="" placeholder="Create password" id="password1" readonly>
     </div>
+    </div>
+    
     
 
         <script  src="./code.js"></script>

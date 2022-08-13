@@ -18,7 +18,7 @@ function passwordGen(){
         password += char
     
     }
-    password1.textContent = password
+    password1.value = password
 
 }
 
