@@ -2,7 +2,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
-
+let password1 = document.getElementById("password1")
 
 
 
@@ -18,7 +18,7 @@ function passwordGen(){
         password += char
     
     }
-    console.log(password)
+    password1.textContent = password
 
 }
 
